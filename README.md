@@ -13,7 +13,7 @@ This app is for Marvel fan's who want to know the timeline of the Marvel movies.
 ### App Evaluation
 - **Category:** Entertainment / Education
 - **Mobile:** This app would be for Android devices. It will be designed to accomodate the mobile user experience.
-- **Story:** Shows the timeline of the MCU movies in canonical order and in order of release date. The user can then select a movie on the timeline to learn about more details of the selected movie.
+- **Story:** Shows the timeline of the MCU movies in chronological order. The user can then select a movie on the timeline to learn about more details of the selected movie.
 - **Market:** Any individual can download and use the app. It will be for those learning about the Marvel Cinematic Universe and passionate Marvel fans alike. 
 - **Habit:** Users can use this as often as they would like. Initial exploration of the app can be done to learn more about the MCU. Further uses of the app can be used for reference and to find out about newly released movies.
 - **Scope:** First, we would like to start up this app as an informational resource for those that would like to learn about Marvel. Later on, there is potential to expand the app to have forums for fans, comic conventions users can attend in their area, and a news feed for Marvel Studios announcements.
