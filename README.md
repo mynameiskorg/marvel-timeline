@@ -13,7 +13,7 @@ This app is for Marvel fan's who want to know the timeline of the Marvel movies.
 ### App Evaluation
 - **Category:** Entertainment / Education
 - **Mobile:** This app would be for Android devices. It will be designed to accomodate the mobile user experience.
-- **Story:** Shows the timeline of the MCU movies in chronological order. The user can then select a movie on the timeline to learn about more details of the selected movie.
+- **Story:** Shows the timeline of the MCU movies in canonical order and in order of release date. The user can then select a movie on the timeline to learn about more details of the selected movie.
 - **Market:** Any individual can download and use the app. It will be for those learning about the Marvel Cinematic Universe and passionate Marvel fans alike. 
 - **Habit:** Users can use this as often as they would like. Initial exploration of the app can be done to learn more about the MCU. Further uses of the app can be used for reference and to find out about newly released movies.
 - **Scope:** First, we would like to start up this app as an informational resource for those that would like to learn about Marvel. Later on, there is potential to expand the app to have forums for fans, comic conventions users can attend in their area, and a news feed for Marvel Studios announcements.
@@ -73,8 +73,36 @@ This app is for Marvel fan's who want to know the timeline of the Marvel movies.
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### Movie Info
+
+| Property    | Type     | Description            |
+| ----------- | -------- | ---------------------- |
+| trailerURL  | String   | youtube url to trailer |
+| posterImage | File     | poster image of movie  |
+| title       | String   | title of movie         |
+| releaseDate | DateTime | release date of movie  |
+| rating      | Number   | rating of the movie    |
+| description | String   | description of movie   |
+
+#### Timeline Movie
+| Property    | Type     | Description       |
+| ----------- | -------- | ------------------|
+| movieTitle  | String   | title of movie    |
+| orderNumber | Number   | order in timeline |
+
+
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- Home Timeline Screen
+    - (Read/GET) Get all Marvel movies
+- Movie Detail Screen
+    - (Read/GET) Get Marvel movie
+
+#### [OPTIONAL] Existing API Endpoints
+- Base URL - https://api.themoviedb.org/3/movie
+
+
+| HTTP Verb | Endpoint          | Description                |
+| --------- | ----------------- | -------------------------- |
+| `GET`     | /movie/:id        | get details of movie by id |
+| `GET`     | /movie/:id/videos | get movie videos by id     |
