@@ -25,12 +25,13 @@ This app is for Marvel fan's who want to know the timeline of the Marvel movies.
 
 **Required Must-have Stories**
 
-* List of movies in order that was intended and descriptions 
-* Poster picture next to description
-* Ratings
-* Release Date
-* Trailers
-* We need to be able to view horizontal and landscape mode
+- [ ] Splash screen when user opens the app
+- [ ] List of movies in order that was intended and descriptions 
+- [ ] Poster picture next to description
+- [ ] Ratings
+- [ ] Release Date
+- [ ] Trailers
+- [ ] We need to be able to view horizontal and landscape mode
 
 
 **Optional Nice-to-have Stories**
@@ -106,3 +107,4 @@ This app is for Marvel fan's who want to know the timeline of the Marvel movies.
 | --------- | ----------------- | -------------------------- |
 | `GET`     | /movie/:id        | get details of movie by id |
 | `GET`     | /movie/:id/videos | get movie videos by id     |
+
