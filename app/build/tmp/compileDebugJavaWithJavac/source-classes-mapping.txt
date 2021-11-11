@@ -1,0 +1,7 @@
+com/nicholaspiazza/marveltimeline/MainActivity.java
+ com.nicholaspiazza.marveltimeline.MainActivity
+com/nicholaspiazza/marveltimeline/BuildConfig.java
+ com.nicholaspiazza.marveltimeline.BuildConfig
+com/nicholaspiazza/marveltimeline/MarvelSplashActivity.java
+ com.nicholaspiazza.marveltimeline.MarvelSplashActivity
+ com.nicholaspiazza.marveltimeline.MarvelSplashActivity$1
