@@ -25,7 +25,7 @@ This app is for Marvel fan's who want to know the timeline of the Marvel movies.
 
 **Required Must-have Stories**
 
-- [ ] Splash screen when user opens the app
+- [x] Splash screen when user opens the app (Sprint 1)
 - [ ] List of movies in order that was intended and descriptions 
 - [ ] Poster picture next to description
 - [ ] Ratings
@@ -108,3 +108,8 @@ This app is for Marvel fan's who want to know the timeline of the Marvel movies.
 | `GET`     | /movie/:id        | get details of movie by id |
 | `GET`     | /movie/:id/videos | get movie videos by id     |
 
+### GIFS
+#### Sprint 1
+##### Splash screen when user opens the app
+<img src="splash_screen.gif" width="250px" alt="splash screen gif" title="Splash Screen"><br>
+GIF created using [ScreenToGif](https://www.screentogif.com/).
