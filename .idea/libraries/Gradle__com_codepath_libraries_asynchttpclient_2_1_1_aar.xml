@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.codepath.libraries:asynchttpclient:2.1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/My_Program/AndroidStudioProjects/SimpleTweet/.gradle/caches/transforms-3/41d9c710cda74e5d307d9287bcf63048/transformed/jetified-asynchttpclient-2.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/My_Program/AndroidStudioProjects/SimpleTweet/.gradle/caches/transforms-3/41d9c710cda74e5d307d9287bcf63048/transformed/jetified-asynchttpclient-2.1.1/res" />
+      <root url="file://$USER_HOME$/My_Program/AndroidStudioProjects/SimpleTweet/.gradle/caches/transforms-3/41d9c710cda74e5d307d9287bcf63048/transformed/jetified-asynchttpclient-2.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/My_Program/AndroidStudioProjects/SimpleTweet/.gradle/caches/modules-2/files-2.1/com.codepath.libraries/asynchttpclient/2.1.1/c9d5ccb0f9f5c4375c6b5c7a5c1de692f4b779a/asynchttpclient-2.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
