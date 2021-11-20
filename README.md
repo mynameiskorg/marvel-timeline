@@ -114,5 +114,5 @@ This app is for Marvel fan's who want to know the timeline of the Marvel movies.
 <img src="splash_screen.gif" width="250px" alt="splash screen gif" title="Splash Screen"><br>
 #### Sprint 2
 ##### Splash screen when user opens the app
-<img src="splash_screen.gif" width="250px" alt="splash screen gif" title="Splash Screen"><br>
+<img src="sprint2.gif" width="250px" alt="splash screen gif" title="Splash Screen"><br>
 GIF created using [ScreenToGif](https://www.screentogif.com/).
