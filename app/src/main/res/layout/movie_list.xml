@@ -79,7 +79,7 @@
         tools:text="The third film in the Marvel Studios' Ant-Man trilogy." />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/tvMore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvOverview"

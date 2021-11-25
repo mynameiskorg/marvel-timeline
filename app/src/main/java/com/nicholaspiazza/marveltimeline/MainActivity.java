@@ -21,7 +21,7 @@ import okhttp3.Headers;
 
 public class MainActivity extends AppCompatActivity {
     public static final String TAG = "MainActivity";
-    public static final String MARVEL_MOVIES = "https://api.themoviedb.org/3/discover/movie?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed&language=en-US&sort_by=primary_release_date.asc&page=1&with_companies=420";
+    public static final String MARVEL_MOVIES = "https://api.themoviedb.org/3/list/12179?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed&language=en-US";
 
     List<Movie> movies;
     @Override
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "onSuccess");
                 JSONObject jsonObject = json.jsonObject;
                 try{
-                    JSONArray results = jsonObject.getJSONArray("results");
+                    JSONArray results = jsonObject.getJSONArray("items");
                     Log.i(TAG, "Results: " + results.toString());
                     movies.addAll(Movie.fromJsonArray(results));
                     movieAdapter.notifyDataSetChanged();

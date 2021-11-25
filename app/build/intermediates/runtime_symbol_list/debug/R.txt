@@ -2150,11 +2150,13 @@ int id pathRelative 0x7f08013f
 int id peekHeight 0x7f080140
 int id percent 0x7f080141
 int id pin 0x7f080142
+int id player 0x7f0801e0
 int id position 0x7f080143
 int id postLayout 0x7f080144
 int id progress_circular 0x7f080145
 int id progress_horizontal 0x7f080146
 int id radio 0x7f080147
+int id ratingBar 0x7f0801dc
 int id ratio 0x7f080148
 int id rectangles 0x7f080149
 int id reverseSawtooth 0x7f08014a
@@ -2251,7 +2253,6 @@ int id textSpacerNoButtons 0x7f0801a4
 int id textSpacerNoTitle 0x7f0801a5
 int id textStart 0x7f0801a6
 int id textTop 0x7f0801a7
-int id textView1 0x7f0801a8
 int id text_input_end_icon 0x7f0801a9
 int id text_input_error_icon 0x7f0801aa
 int id text_input_start_icon 0x7f0801ab
@@ -2277,7 +2278,11 @@ int id transition_position 0x7f0801be
 int id transition_scene_layoutid_cache 0x7f0801bf
 int id transition_transform 0x7f0801c0
 int id triangle 0x7f0801c1
+int id tvMarvelOverview 0x7f0801dd
+int id tvMarvelTitle 0x7f0801de
+int id tvMore 0x7f0801db
 int id tvOverview 0x7f0801c2
+int id tvReleaseDate 0x7f0801df
 int id tvTitle 0x7f0801c3
 int id tvYear 0x7f0801c4
 int id unchecked 0x7f0801c5
@@ -2370,6 +2375,7 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_main 0x7f0b001c
+int layout activity_marvel_movie_detail 0x7f0b0073
 int layout activity_marvel_splash 0x7f0b001d
 int layout custom_dialog 0x7f0b001e
 int layout design_bottom_navigation_item 0x7f0b001f

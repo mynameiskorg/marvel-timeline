@@ -21,6 +21,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.MarvelTimeline" >
         <activity
+            android:name="com.nicholaspiazza.marveltimeline.MarvelMovieDetail"
+            android:exported="true" />
+        <activity
             android:name="com.nicholaspiazza.marveltimeline.MarvelSplashActivity"
             android:exported="true" >
             <intent-filter>
@@ -31,8 +34,7 @@
         </activity>
         <activity
             android:name="com.nicholaspiazza.marveltimeline.MainActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

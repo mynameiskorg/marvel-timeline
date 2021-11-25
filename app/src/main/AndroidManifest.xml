@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MarvelTimeline">
         <activity
+            android:name=".MarvelMovieDetail"
+            android:exported="true" />
+        <activity
             android:name=".MarvelSplashActivity"
             android:exported="true">
             <intent-filter>
@@ -22,8 +25,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
