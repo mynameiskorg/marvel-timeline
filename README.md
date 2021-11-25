@@ -28,9 +28,9 @@ This app is for Marvel fan's who want to know the timeline of the Marvel movies.
 - [x] Splash screen when user opens the app (Sprint 1)
 - [x] List of movies in order that was intended and descriptions (Sprint 2)
 - [x] Poster picture next to description (Sprint 2)
-- [ ] Ratings
+- [x] Ratings (Sprint 3)
 - [x] Release Date (Sprint 2)
-- [ ] Trailers
+- [x] Trailers (Sprint 3)
 - [ ] We need to be able to view horizontal and landscape mode
 
 
