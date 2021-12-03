@@ -1,10 +1,12 @@
 
 package com.nicholaspiazza.marveltimeline;
 
+import java.util.HashMap;
 import android.os.Parcelable;
 import android.os.Parcelable.Creator;
 import org.parceler.Generated;
 import org.parceler.IdentityCollection;
+import org.parceler.MapsUtil;
 import org.parceler.ParcelWrapper;
 import org.parceler.ParcelerRuntimeException;
 
@@ -53,6 +55,15 @@ public class Movie$$Parcelable
             parcel$$1 .writeString(movie$$1 .overView);
             parcel$$1 .writeDouble(movie$$1 .movieRating);
             parcel$$1 .writeString(movie$$1 .releaseDate);
+            if (movie$$1 .monthMap == null) {
+                parcel$$1 .writeInt(-1);
+            } else {
+                parcel$$1 .writeInt(movie$$1 .monthMap.size());
+                for (java.util.Map.Entry<java.lang.String, java.lang.String> entry$$0 : movie$$1 .monthMap.entrySet()) {
+                    parcel$$1 .writeString(entry$$0 .getKey());
+                    parcel$$1 .writeString(entry$$0 .getValue());
+                }
+            }
             parcel$$1 .writeInt(movie$$1 .movieId);
             parcel$$1 .writeString(movie$$1 .mediaType);
             parcel$$1 .writeString(movie$$1 .title);
@@ -85,6 +96,19 @@ public class Movie$$Parcelable
             movie$$4 .overView = parcel$$3 .readString();
             movie$$4 .movieRating = parcel$$3 .readDouble();
             movie$$4 .releaseDate = parcel$$3 .readString();
+            int int$$0 = parcel$$3 .readInt();
+            HashMap<java.lang.String, java.lang.String> map$$0;
+            if (int$$0 < 0) {
+                map$$0 = null;
+            } else {
+                map$$0 = new HashMap<java.lang.String, java.lang.String>(MapsUtil.initialHashMapCapacity(int$$0));
+                for (int int$$1 = 0; (int$$1 <int$$0); int$$1 ++) {
+                    java.lang.String string$$0 = parcel$$3 .readString();
+                    java.lang.String string$$1 = parcel$$3 .readString();
+                    map$$0 .put(string$$0, string$$1);
+                }
+            }
+            movie$$4 .monthMap = map$$0;
             movie$$4 .movieId = parcel$$3 .readInt();
             movie$$4 .mediaType = parcel$$3 .readString();
             movie$$4 .title = parcel$$3 .readString();

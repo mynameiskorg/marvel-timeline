@@ -12,6 +12,9 @@ public class MarvelSplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_marvel_splash);
+        if(getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
         Handler handler = new Handler();
         Intent intent = new Intent(this, MainActivity.class);
         handler.postDelayed(new Runnable() {
