@@ -3,6 +3,7 @@
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/My_Program/AndroidStudioProjects/SimpleTweet/.gradle/caches/transforms-3/50ce45eecb745162e98be4be1a1b6abc/transformed/jetified-stetho-1.5.1/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/17dc8bdab2a903e5786bc63e23361116/transformed/jetified-stetho-1.5.1/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/My_Program/AndroidStudioProjects/SimpleTweet/.gradle/caches/transforms-3/d275287409ddba46b36db9e35e456319/transformed/jetified-stetho-1.5.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/My_Program/AndroidStudioProjects/SimpleTweet/.gradle/caches/transforms-3/50ce45eecb745162e98be4be1a1b6abc/transformed/jetified-stetho-1.5.1/jars/classes.jar!/" />
@@ -11,6 +12,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/17dc8bdab2a903e5786bc63e23361116/transformed/jetified-stetho-1.5.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/17dc8bdab2a903e5786bc63e23361116/transformed/jetified-stetho-1.5.1/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/17dc8bdab2a903e5786bc63e23361116/transformed/jetified-stetho-1.5.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/My_Program/AndroidStudioProjects/SimpleTweet/.gradle/caches/transforms-3/d275287409ddba46b36db9e35e456319/transformed/jetified-stetho-1.5.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/My_Program/AndroidStudioProjects/SimpleTweet/.gradle/caches/transforms-3/d275287409ddba46b36db9e35e456319/transformed/jetified-stetho-1.5.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/My_Program/AndroidStudioProjects/SimpleTweet/.gradle/caches/transforms-3/d275287409ddba46b36db9e35e456319/transformed/jetified-stetho-1.5.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/My_Program/AndroidStudioProjects/SimpleTweet/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.5.1/b71856fcb682e807ccec3a276e47c94944b6c6ea/stetho-1.5.1-javadoc.jar!/" />

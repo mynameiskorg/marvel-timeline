@@ -37,8 +37,10 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
         android:layout_toEndOf="@id/ivPoster"
-        android:textColor="#DFFFFFFF"
+        android:fontFamily="monospace"
+        android:textColor="@color/marvel_dark_red"
         android:textSize="18sp"
+        android:textStyle="bold"
         android:transitionName="title_transition"
         tools:text="1943" />
 
@@ -54,10 +56,11 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
         android:layout_toEndOf="@id/ivPoster"
-        android:textColor="#DF000000"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:transitionName="title_transition"
-        tools:text="Captain America" />
+        tools:text="@string/movieTitle" />
 
     <TextView
         android:id="@+id/tvOverview"
@@ -72,6 +75,7 @@
         android:layout_marginBottom="5dp"
         android:layout_toEndOf="@+id/ivPoster"
         android:ellipsize="end"
+        android:fontFamily="monospace"
         android:maxLength="280"
         android:maxLines="4"
         android:textColor="#DFFFFFFF"
@@ -90,6 +94,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
         android:layout_toEndOf="@+id/ivPoster"
+        android:fontFamily="monospace"
         android:text="View more"
         android:textColor="@android:color/holo_blue_dark" />
 
