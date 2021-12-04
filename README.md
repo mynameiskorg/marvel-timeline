@@ -31,7 +31,7 @@ This app is for Marvel fan's who want to know the timeline of the Marvel movies.
 - [x] Ratings (Sprint 3)
 - [x] Release Date (Sprint 2)
 - [x] Trailers (Sprint 3)
-- [ ] We need to be able to view horizontal and landscape mode
+- [x] We need to be able to view horizontal and landscape mode (Sprint 4)
 
 
 **Optional Nice-to-have Stories**
