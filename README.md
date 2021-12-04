@@ -120,3 +120,7 @@ GIF created using [ScreenToGif](https://www.screentogif.com/).
 ##### Marvel movie detail screen
 <img src="detail_screen.gif" width="250px" alt="detail screen gif" title="detail Screen"><br>
 GIF created using [ScreenToGif](https://www.screentogif.com/).
+#### Sprint 4
+##### Horizontal mode
+<img src="horizontal.gif" width="500px" alt="horizontal mode gif" title="Horizontal Mode"><br>
+GIF created using [ScreenToGif](https://www.screentogif.com/).
