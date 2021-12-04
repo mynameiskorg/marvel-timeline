@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark_gray"
+    android:paddingTop="5dp"
+    android:paddingBottom="10dp"
+    android:radius="30dp"
+    android:visibility="visible">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:adjustViewBounds="true"
+        app:shapeAppearanceOverlay="@style/roundImageview"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvYear"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@id/ivPoster"
+        android:fontFamily="monospace"
+        android:textColor="@color/marvel_dark_red"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:transitionName="title_transition"
+        tools:text="1943" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvYear"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@id/ivPoster"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:transitionName="title_transition"
+        tools:text="@string/movieTitle" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/ivPoster"
+        android:ellipsize="end"
+        android:fontFamily="monospace"
+        android:maxLength="280"
+        android:maxLines="4"
+        android:textColor="#DFFFFFFF"
+        android:transitionName="overview_transition"
+        tools:text="The third film in the Marvel Studios' Ant-Man trilogy." />
+
+    <TextView
+        android:id="@+id/tvMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvOverview"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_toEndOf="@+id/ivPoster"
+        android:fontFamily="monospace"
+        android:text="View more"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/ivPoster"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="0dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#000000"
+        android:outlineSpotShadowColor="@color/marvel_dark_red"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

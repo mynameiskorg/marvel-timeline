@@ -51,7 +51,7 @@
 
     <TextView
         android:id="@+id/tvMarvelOverview"
-        android:layout_width="match_parent"
+        android:layout_width="379dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10sp"
         android:layout_marginTop="5sp"
