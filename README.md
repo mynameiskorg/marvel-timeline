@@ -126,5 +126,5 @@ GIF created using [ScreenToGif](https://www.screentogif.com/).
 GIF created using [ScreenToGif](https://www.screentogif.com/).
 #### Final App
 ##### Walkthrough
-<img src="walkthrough.gif" width="250px" alt="walkthrough gif" title="Walkthrough"><br>
+<img src="walkthrough.gif" width="500px" alt="walkthrough gif" title="Walkthrough"><br>
 GIF created using [ScreenToGif](https://www.screentogif.com/).
