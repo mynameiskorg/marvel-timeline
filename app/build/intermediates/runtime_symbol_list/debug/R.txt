@@ -2393,6 +2393,7 @@ int layout design_navigation_menu 0x7f0b002b
 int layout design_navigation_menu_item 0x7f0b002c
 int layout design_text_input_end_icon 0x7f0b002d
 int layout design_text_input_start_icon 0x7f0b002e
+int layout marvel_action_bar 0x7f0b0074
 int layout material_chip_input_combo 0x7f0b002f
 int layout material_clock_display 0x7f0b0030
 int layout material_clock_display_divider 0x7f0b0031

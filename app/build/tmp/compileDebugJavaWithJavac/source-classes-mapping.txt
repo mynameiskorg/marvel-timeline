@@ -1,11 +1,8 @@
-com/nicholaspiazza/marveltimeline/MarvelSplashActivity.java
- com.nicholaspiazza.marveltimeline.MarvelSplashActivity
- com.nicholaspiazza.marveltimeline.MarvelSplashActivity$1
-com/nicholaspiazza/marveltimeline/BuildConfig.java
- com.nicholaspiazza.marveltimeline.BuildConfig
 com/nicholaspiazza/marveltimeline/MainActivity.java
  com.nicholaspiazza.marveltimeline.MainActivity
  com.nicholaspiazza.marveltimeline.MainActivity$1
+com/nicholaspiazza/marveltimeline/BuildConfig.java
+ com.nicholaspiazza.marveltimeline.BuildConfig
 com/nicholaspiazza/marveltimeline/MovieAdapter.java
  com.nicholaspiazza.marveltimeline.MovieAdapter
  com.nicholaspiazza.marveltimeline.MovieAdapter$ViewHolder
@@ -16,3 +13,6 @@ com/nicholaspiazza/marveltimeline/MarvelMovieDetail.java
  com.nicholaspiazza.marveltimeline.MarvelMovieDetail$2
 com/nicholaspiazza/marveltimeline/Movie.java
  com.nicholaspiazza.marveltimeline.Movie
+com/nicholaspiazza/marveltimeline/MarvelSplashActivity.java
+ com.nicholaspiazza.marveltimeline.MarvelSplashActivity
+ com.nicholaspiazza.marveltimeline.MarvelSplashActivity$1
