@@ -124,3 +124,7 @@ GIF created using [ScreenToGif](https://www.screentogif.com/).
 ##### Horizontal mode
 <img src="horizontal.gif" width="500px" alt="horizontal mode gif" title="Horizontal Mode"><br>
 GIF created using [ScreenToGif](https://www.screentogif.com/).
+#### Final App
+##### Walkthrough
+<img src="walkthrough.gif" width="250px" alt="walkthrough gif" title="Walkthrough"><br>
+GIF created using [ScreenToGif](https://www.screentogif.com/).
